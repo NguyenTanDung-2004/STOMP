@@ -3,7 +3,7 @@
 
 # The message flow when it is sent to server.
 ### Scenario:
-Suppose that we have to client: client1 and client2.
+Suppose that we have two clients: client1 and client2.
 * Client 1 sends message to server.
 * We want client 2 to know this message without reload page.
 ### Idea for this problem
