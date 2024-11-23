@@ -14,6 +14,7 @@ Suppose that we have to client: client1 and client2.
 # File which need to read.
 * GreetingController.java
 * WebSocketConfig.java
+* resource/static/app.js (How to connect from frontend)
 
 
 # Thank you!
