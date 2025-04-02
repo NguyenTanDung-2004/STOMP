@@ -75,5 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("connect").addEventListener("click", connect);
     document.getElementById("disconnect").addEventListener("click", disconnect);
-    document.getElementById("send").addEventListener("click", sendName);
+    document.getElementById("send").addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent default button behavior
+        sendName();
+    });
 });
